@@ -14,6 +14,6 @@ namespace ControleEstoque.Domain.Entities
         public bool Ativo { get; set; } = true;
         public TipoUsuario Tipo { get; set; }
         public int? EnderecoId { get; set; }
-        public Endereco? Endereco { get; set; }
+        public virtual Endereco? Endereco { get; set; }
     }
 }
