@@ -13,5 +13,7 @@ namespace ControleEstoque.Domain.Entities
         public string Celular { get; set; } = string.Empty;
         public bool Ativo { get; set; } = true;
         public TipoUsuario Tipo { get; set; }
+        public int? EnderecoId { get; set; }
+        public Endereco? Endereco { get; set; }
     }
 }
